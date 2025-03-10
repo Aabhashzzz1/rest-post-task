@@ -37,3 +37,38 @@ Implement a middleware to **log the API latency** for each request.
    - Invalid inputs
    - Error handling
    - Middleware functionality
+
+## 🚀 How to Run This Golang Project
+
+### 🛠 Prerequisites
+
+Make sure you have the following installed:
+
+- Go 1.18 or later
+- Git
+
+--- 
+
+### 📥 Step-by-Step Instructions
+
+#### 1. Clone the repository
+
+```bash
+git clone https://github.com/Aabhashzzz1/rest-post-task.git`
+cd rest-post-task
+```
+
+2. Initialize Go modules 
+```go
+go mod tidy
+```
+
+3. Run the API Server
+```go
+go run main.go
+```
+
+4. To check test 
+```go
+go test -v
+```
